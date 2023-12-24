@@ -35,5 +35,19 @@ public class MainActivity extends AppCompatActivity {
 
         //Polymorphism
 
+        //Static Polymorphism
+
+        Mathematics mathematics = new Mathematics();
+        System.out.println(mathematics.sum());
+        System.out.println(mathematics.sum(5,3));
+        System.out.println(mathematics.sum(5,3,4));
+
+        //Dynamic Polymorphism
+        Animal myAnimal = new Animal();
+        myAnimal.sing();
+
+        Dog barley = new Dog();
+        barley.test();
+        barley.sing();
     }
 }
