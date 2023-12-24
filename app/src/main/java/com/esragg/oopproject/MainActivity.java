@@ -27,5 +27,13 @@ public class MainActivity extends AppCompatActivity {
         System.out.println(james.getName());
         james.setAge(60, "esra");
         System.out.println(james.getAge());
+
+        //Inheritance
+        SuperMusician lars = new SuperMusician("Lars", "Drums", 55);
+        System.out.println(lars.sing());
+        System.out.println(lars.getAge());
+
+        //Polymorphism
+
     }
 }
